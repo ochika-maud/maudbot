@@ -25,4 +25,4 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 # クライアントの実行
-client.run('eroor')
+client.run(os.environ.get("discordtoken"))
