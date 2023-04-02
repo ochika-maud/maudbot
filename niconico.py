@@ -1,4 +1,5 @@
 import discord
+import os
 
 # インテントの生成
 intents = discord.Intents.default()
@@ -24,4 +25,4 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 # クライアントの実行
-client.run('MTA5MTk3OTE3MjMyODUwNTM2Ng.Gz9qVJ.aRX494JFXjGY8ufwrslD_dYEA2w8pQt1-_34rc')
+client.run('eroor')
